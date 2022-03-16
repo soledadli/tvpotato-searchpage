@@ -149,13 +149,11 @@ const Searchbar = () => {
   }, [isClickedOutside])
 
   const prepareSearchQuery = (query) => {
-    const url = `http://api.tvmaze.com/search/shows?q=${query}`;
-    console.log('url: ', url)
+    const url = `https://cors-everywhere.herokuapp.com/http://api.tvmaze.com/search/shows?q=${query}`;
     return encodeURI(url);
   };
 
   const searchTvShow = async () => {
-    console.log(searchQuery)
     if (!searchQuery || searchQuery.trim() === "") return;
 
     setIsLoading(true);
@@ -178,7 +176,6 @@ const Searchbar = () => {
   };
 
   useDebounce(searchQuery, 500, searchTvShow)
-  console.log(tvShows)
   return (
     <SearchbarContainer animate={isExpanded ? 'expanded' : 'collapsed'} variants={containerVariants} ref={parentRef}
       transition={containerTransition}>

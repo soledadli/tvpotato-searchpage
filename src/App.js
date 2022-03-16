@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Searchbar from './Components/Searchbar';
+import Credit from './Components/Credit'
 import './App.css';
 
 const AppContainer = styled.div`
@@ -16,6 +17,7 @@ function App() {
     <AppContainer>
       <Searchbar />
     </AppContainer>
+
   );
 }
 
