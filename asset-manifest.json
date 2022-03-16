@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tvpotato-searchpage/static/css/main.e6c13ad2.css",
+    "main.js": "/tvpotato-searchpage/static/js/main.e345c939.js",
+    "static/js/787.b2f9cff5.chunk.js": "/tvpotato-searchpage/static/js/787.b2f9cff5.chunk.js",
+    "index.html": "/tvpotato-searchpage/index.html",
+    "main.e6c13ad2.css.map": "/tvpotato-searchpage/static/css/main.e6c13ad2.css.map",
+    "main.e345c939.js.map": "/tvpotato-searchpage/static/js/main.e345c939.js.map",
+    "787.b2f9cff5.chunk.js.map": "/tvpotato-searchpage/static/js/787.b2f9cff5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e345c939.js"
+  ]
+}
